@@ -1,0 +1,33 @@
+.active-link {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin: 0;
+}
+
+
+.nav a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Optional: Use default text color */
+}
+
+.nav a.active-link {
+  font-weight: bold; /* Highlight active link */
+  text-decoration: none; /* Ensure no underline for active links */
+  color: blue; /* Optional: Different color for active link */
+}
+
+.nav a:hover {
+  text-decoration: none; /* No underline on hover */
+}
